@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/css/tom-select.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h2>Age Calculator</h2>
+
+    <div class="dropdowns">
+      <label for="year">Year</label>
+      <select id="year"><option value="">Select Year</option></select>
+
+      <label for="month">Month</label>
+      <select id="month"><option value="">Select Month</option></select>
+
+      <label for="day">Day</label>
+      <select id="day"><option value="">Select Day</option></select>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="buttons">
+      <button id="copyBtn">Copy</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/tom-select@2.3.1/dist/js/tom-select.complete.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
